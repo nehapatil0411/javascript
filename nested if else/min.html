@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        // wap to find mininum  from 3 variables by user input using nested if else
+
+        let a = prompt("Enter the value of a :");
+        let b = prompt("Enter the value of b :");
+        let c = prompt("Enter the value of c :");
+
+        let p = parseInt(a);
+        let q = parseInt(b);
+        let r = parseInt(c);
+        
+        if(a<b)
+        {   
+            if(a<c)     
+            {
+                document.write("A is minimum !");
+
+            }
+            else
+            {
+                document.write("C is minimum !");
+
+            }
+        }   
+        else
+        {
+            if(b<c)
+            {
+                document.write("B is minimum !");
+
+            }
+            else
+            {
+                    document.write("C is minimum !");
+
+            }
+        }
+    </script>
+    
+</body>
+</html>

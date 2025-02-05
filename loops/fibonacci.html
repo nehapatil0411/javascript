@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // wap to print fibonacci series upto n numbers.
+    //     let n = prompt("Enter  n : ");
+    //     let a = parseInt(n);
+    //     let i = 1;
+    //     let first = 0;
+    //     let second = 1;
+    //     document.write("first + , "    " + second");
+    //     while(i<=n)
+    // {
+    //     let third = first + second
+    //     document.write("    " +, third)
+    //     first = second
+    //     second = third
+    //     i++;
+    // }
+
+
+
+
+    let  number =prompt('Enter the number : ');
+    let a = parseInt(number)
+let n1 = 0, n2 = 1, n3;
+
+document.write ('Fibonacci Series:');
+
+for (let i = 1; i <= number; i++) {
+    document.write(n1 + "    ");
+    n3 = n1 + n2;
+    n1 = n2;
+    n2 = n3;
+}
+    </script>
+    
+</body>
+</html>
